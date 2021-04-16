@@ -36,8 +36,6 @@ namespace stl {
     template<typename U>
     std::ostream &operator<<(std::ostream &, nQuene<U> &);
 
-    struct QueueEmptyException;
-
 }
 
 
