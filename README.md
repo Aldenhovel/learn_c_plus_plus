@@ -15,7 +15,7 @@ Tuple(2 elements) 二元组|20210417|stl::nTuple
 
 name|date|model|
 ---|:---|:---|
-Swap 交换|20210417|stl::Althrithm::swap<T>(T& a, T& b)
-Reverse 反转|20210417|stl::Althrithm::Sort().reverse(vector<int/float/double>& arr)
+Swap 交换|20210417|stl::Algorithm::swap<T>(T& a, T& b)
+Reverse 反转|20210417|stl::Algorithm::Sort().reverse(vector<int/float/double>& arr)
 BubbleSort 冒泡排序|20210417|stl::Algorithm::Sort().bubbleSort(vector<int>& arr, bool ASC)
 InsertSort 直接插入排序|20210418|stl::Algorithm::Sort().insertSort(vector<int>& arr, bool ASC)
