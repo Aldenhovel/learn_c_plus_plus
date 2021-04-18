@@ -5,7 +5,7 @@
 
 ## Data Structure 数据结构
 
-type|date|loc|
+type|date|model|
 ---|:---|:---|
 Stack 栈|20210416|stl::nStack
 Quene 队列|20210416|stl::nQuene
