@@ -63,5 +63,32 @@ namespace stl::Algorithm{
             }
             arr[j+1] = temp;
         }
+        if (!ASC) reverse(arr);
+        cout << "InsertSort Done!" << endl;
+    }
+
+    int Sort::_quickSort_Partition(vector<int>& arr, int low, int high) {
+        int pivot = arr[low];
+        while (low < high){
+            while (low < high && arr[high] >= pivot) --high;
+            arr[low] = arr[high];
+            while (low < high && arr[low] <= pivot) ++low;
+            arr[high] = arr[low];
+        }
+        arr[low] = pivot;
+        return low;
+    }
+    void Sort::_quickSort(vector<int>& arr, int low, int high) {
+        if (low < high){
+            int div_pos = _quickSort_Partition(arr, low, high);
+            _quickSort(arr, low, div_pos-1);
+            _quickSort(arr, div_pos+1, high);
+        }
+    }
+    void Sort::quickSort(vector<int>& arr, bool ASC) {
+        _quickSort(arr, 0, arr.size()-1);
+        if (!ASC) reverse(arr);
+        cout << "QuickSort Done!" << endl;
     }
 }
+
