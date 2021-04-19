@@ -19,3 +19,4 @@ Swap 交换|20210417|stl::Algorithm::swap<T>(T& a, T& b)|nAlgorithm.h/.cpp|
 Reverse 反转|20210417|stl::Algorithm::Sort().reverse(vector<int/float/double>& arr)|nAlgorithm.h/.cpp|
 BubbleSort 冒泡排序|20210417|stl::Algorithm::Sort().bubbleSort(vector<int>& arr, bool ASC)|nAlgorithm.h/.cpp|
 InsertSort 直接插入排序|20210418|stl::Algorithm::Sort().insertSort(vector<int>& arr, bool ASC)|nAlgorithm.h/.cpp|
+QuickSort 快速排序|20210419|stl::Algorithm::Sort().quickSort(vector<int>& arr, bool ASC)|nAlgorithm.h/.cpp|
